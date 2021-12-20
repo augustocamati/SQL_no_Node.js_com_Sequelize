@@ -1,0 +1,7 @@
+{
+
+    "creat-database": "npx sequelize db:creat",
+    "creat-model": "npx sequelize migration:generate --name creat-users",
+    "creat-table": "npx sequelize db:migrate"
+
+} 
