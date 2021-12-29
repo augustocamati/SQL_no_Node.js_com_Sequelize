@@ -7,6 +7,8 @@ class user extends Model {
 
             name: DataTypes.STRING,
             email: DataTypes.STRING,
+            createdAt: DataTypes.DATE,
+            updatedAt: DataTypes.DATE
         },{
             sequelize
         })
